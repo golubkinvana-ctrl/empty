@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(empty)
-add_executable(main main.cpp)
+set(CMAKE_CXX_STANDARD 20)
+add_subdirectory(lib)
+add_subdirectory(bin)
